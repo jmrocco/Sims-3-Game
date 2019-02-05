@@ -1,0 +1,549 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7B7E7ABF-50D1-4808-9281-1F44BA2F1FF1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Sims_3_Game.My.MyApplication</StartupObject>
+    <RootNamespace>Sims_3_Game</RootNamespace>
+    <AssemblyName>Sims 3 Game</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Sims 3 Game.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Sims 3 Game.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.Designer.vb">
+      <DependentUpon>About.vb</DependentUpon>
+    </Compile>
+    <Compile Include="About.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Choose a Job.Designer.vb">
+      <DependentUpon>Choose a Job.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Choose a Job.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Create a Character.Designer.vb">
+      <DependentUpon>Create a Character.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Create a Character.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dead.Designer.vb">
+      <DependentUpon>Dead.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dead.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="diamond.Designer.vb">
+      <DependentUpon>diamond.vb</DependentUpon>
+    </Compile>
+    <Compile Include="diamond.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="finished.Designer.vb">
+      <DependentUpon>finished.vb</DependentUpon>
+    </Compile>
+    <Compile Include="finished.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmChina.Designer.vb">
+      <DependentUpon>frmChina.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmChina.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmChooseSpouse.Designer.vb">
+      <DependentUpon>frmChooseSpouse.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmChooseSpouse.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEgypt.Designer.vb">
+      <DependentUpon>frmEgypt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmEgypt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFrance.Designer.vb">
+      <DependentUpon>frmFrance.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmFrance.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVacation.Designer.vb">
+      <DependentUpon>frmVacation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmVacation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Game Interface.Designer.vb">
+      <DependentUpon>Game Interface.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Game Interface.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="have child.Designer.vb">
+      <DependentUpon>have child.vb</DependentUpon>
+    </Compile>
+    <Compile Include="have child.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Loading Screen 2.Designer.vb">
+      <DependentUpon>Loading Screen 2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Loading Screen 2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Rules 2.Designer.vb">
+      <DependentUpon>Rules 2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Rules 2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rules.Designer.vb">
+      <DependentUpon>Rules.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Rules.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Welcome Screen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Welcome Screen.Designer.vb">
+      <DependentUpon>Welcome Screen.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Loading Screen.Designer.vb">
+      <DependentUpon>Loading Screen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Loading Screen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="About.resx">
+      <DependentUpon>About.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Choose a Job.resx">
+      <DependentUpon>Choose a Job.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Create a Character.resx">
+      <DependentUpon>Create a Character.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dead.resx">
+      <DependentUpon>Dead.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="diamond.resx">
+      <DependentUpon>diamond.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="finished.resx">
+      <DependentUpon>finished.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmChina.resx">
+      <DependentUpon>frmChina.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmChooseSpouse.resx">
+      <DependentUpon>frmChooseSpouse.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEgypt.resx">
+      <DependentUpon>frmEgypt.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFrance.resx">
+      <DependentUpon>frmFrance.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVacation.resx">
+      <DependentUpon>frmVacation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Game Interface.resx">
+      <DependentUpon>Game Interface.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="have child.resx">
+      <DependentUpon>have child.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Loading Screen 2.resx">
+      <DependentUpon>Loading Screen 2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rules 2.resx">
+      <DependentUpon>Rules 2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rules.resx">
+      <DependentUpon>Rules.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Welcome Screen.resx">
+      <DependentUpon>Welcome Screen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Loading Screen.resx">
+      <DependentUpon>Loading Screen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>PublicVbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\girl1 temp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\girl2 temp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\girl3 temp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\guy1 temp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\guy2 temp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\guy3 temp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\law enforcement.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\waiter.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\political.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grocery store clerk.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\movie star.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\writer.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\school teacher.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lifeguard.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\12314605_911212425641977_4927251808964610845_o.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Animated_sims_plumbbob.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background 2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loading screem.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sims 3 logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sims 3 Spinning Diamond.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\USER_Spinning_Sims_3_Diamond_Sign.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\girl 1 real.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\girl 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\girl 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\girl 3 real.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\girl 3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\guy 1 real.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\guy 2 real.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\guy 3 real.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\husband 1 .png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\husband 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\husband 3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wife 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wife 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wife 3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boy 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boy 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boy 3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\girl 11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\girl 21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\girl 31.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boook.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\city hall.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grocery.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hiuse 3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hoouse 44.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hosppital.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\house 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\house 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\house 5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\map.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\movie.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\park.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\police.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pool.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\restur.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sacred_Spleen_Memorial_Hospital.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\school.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot-1373.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot-1374.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot-1375.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot-1376.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot-1377.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot-1378.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot-1379.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot-1380.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot-1381.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot-1384.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot-1386.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot-1387.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot-1388.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot-1389.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\girl 2 real.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot-1385.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\birth.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\death.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loading screen sound.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\marriage.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sims 3 China Vacation.mp4" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sims 3 Egypt Vacation .mp4" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sims 3 France Vacation.mp4" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sims3Egypt.mp4" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
